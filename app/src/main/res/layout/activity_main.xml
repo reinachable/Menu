@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/OptionsMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Menú opciones"
+        android:onClick="openOptionsMenu" />
+
+    <Button
+        android:id="@+id/ContextualMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Menú contextual"
+        android:onClick="openContextualMenu" />
+
+    <Button
+        android:id="@+id/PopupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Popup"
+        android:onClick="openPopupMenu" />
+
+</LinearLayout>

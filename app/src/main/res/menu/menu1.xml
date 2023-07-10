@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_contextual"
+        android:title="Ir a menú contextual" />
+    <item
+        android:id="@+id/menu_popup"
+        android:title="Ir a menú popup" />
+    <item
+        android:id="@+id/menu_main"
+        android:title="Regresar al menú principal" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Salir de la aplicación" />
+</menu>
+
+

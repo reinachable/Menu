@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_options"
+        android:title="Ir a Menú Opciones" />
+    <item
+        android:id="@+id/menu_popup"
+        android:title="Ir a Menú Popup" />
+    <item
+        android:id="@+id/menu_main"
+        android:title="Regresar al Menú Principal" />
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Salir de la Aplicación" />
+</menu>
